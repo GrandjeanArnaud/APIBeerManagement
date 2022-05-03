@@ -1243,11 +1243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shadow\\source\\repos\\BeerManagement\\BeerManagement\\BeerManagement.csproj",
+      "projectUniqueName": "C:\\Users\\Shadow\\Documents\\GitHub\\BeerManagement\\BeerManagement\\BeerManagement.csproj",
       "projectName": "BeerManagement",
-      "projectPath": "C:\\Users\\Shadow\\source\\repos\\BeerManagement\\BeerManagement\\BeerManagement.csproj",
+      "projectPath": "C:\\Users\\Shadow\\Documents\\GitHub\\BeerManagement\\BeerManagement\\BeerManagement.csproj",
       "packagesPath": "C:\\Users\\Shadow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shadow\\source\\repos\\BeerManagement\\BeerManagement\\obj\\",
+      "outputPath": "C:\\Users\\Shadow\\Documents\\GitHub\\BeerManagement\\BeerManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shadow\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1264,8 +1264,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Shadow\\source\\repos\\BeerManagement\\BeerManagementModels\\BeerManagementModels.csproj": {
-              "projectPath": "C:\\Users\\Shadow\\source\\repos\\BeerManagement\\BeerManagementModels\\BeerManagementModels.csproj"
+            "C:\\Users\\Shadow\\Documents\\GitHub\\BeerManagement\\BeerManagementModels\\BeerManagementModels.csproj": {
+              "projectPath": "C:\\Users\\Shadow\\Documents\\GitHub\\BeerManagement\\BeerManagementModels\\BeerManagementModels.csproj"
             }
           }
         }

@@ -5,7 +5,7 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<BeerManagement.Controllers.BeerManagementContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<BeerManagement.Utils.BeerManagementContext>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@
             ContextKey = "BeerManagement.Controllers.BeerManagementContext";
         }
 
-        protected override void Seed(BeerManagement.Controllers.BeerManagementContext context)
+        protected override void Seed(BeerManagement.Utils.BeerManagementContext context)
         {
             //  This method will be called after migrating to the latest version.
 

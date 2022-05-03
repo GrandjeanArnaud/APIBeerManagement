@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MoRQ5+xhZkqjJmm79y/4UHob9rUxhzc/HG2+acj+stXaOZnghkL4e3kFrvLaIXmwFQEmrZqiW1j2UzUYIjCL8w==",
+  "dgSpecHash": "esUgp0Gi9Dhi+/iAmYGQeqC+g3hH6Qwiv75OCuJhHI9meLcRT+RSmEUQe5GgFBu6vcuJq6lTKVE9NCsVtmMjBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shadow\\source\\repos\\BeerManagement\\BeerManagement\\BeerManagement.csproj",
+  "projectFilePath": "C:\\Users\\Shadow\\Documents\\GitHub\\BeerManagement\\BeerManagement\\BeerManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shadow\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Shadow\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
