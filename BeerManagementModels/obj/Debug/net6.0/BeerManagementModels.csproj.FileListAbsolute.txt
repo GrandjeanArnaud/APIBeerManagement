@@ -1,0 +1,12 @@
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\bin\Debug\net6.0\BeerManagementModels.deps.json
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\bin\Debug\net6.0\BeerManagementModels.dll
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\bin\Debug\net6.0\BeerManagementModels.pdb
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\BeerManagementModels.csproj.AssemblyReference.cache
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\BeerManagementModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\BeerManagementModels.AssemblyInfoInputs.cache
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\BeerManagementModels.AssemblyInfo.cs
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\BeerManagementModels.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\BeerManagementModels.dll
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\refint\BeerManagementModels.dll
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\BeerManagementModels.pdb
+C:\Users\Shadow\source\repos\BeerManagement\BeerManagementModels\obj\Debug\net6.0\ref\BeerManagementModels.dll
