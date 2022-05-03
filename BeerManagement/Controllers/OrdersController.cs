@@ -13,11 +13,12 @@ namespace BeerManagement.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] List<Commande> orders)
         {
+
             if (orders.Count() <= 0)
                 return BadRequest(new CommandeException("La commande ne peut pas être vide"));
             for (int i = 0; i < orders.Count() - 1; i++)
             {
-                for (int j = i; j < orders.Count(); j++)
+                for (int j = i+1; j < orders.Count(); j++)
                 {
                     if (orders[i].Quantity == orders[j].Quantity
                         && orders[i].BeerId == orders[j].BeerId
@@ -44,7 +45,7 @@ namespace BeerManagement.Controllers
                 for (int i = 0; i < orders.Count() - 1; i++)
                 {
                     int askedQuantity = orders[i].Quantity;
-                    for (int j = i; j < orders.Count(); j++)
+                    for (int j = i+1; j < orders.Count(); j++)
                     {
                         if (orders[i].BeerId == orders[j].BeerId
                             && orders[i].WholeSalerId == orders[j].WholeSalerId)
@@ -52,8 +53,10 @@ namespace BeerManagement.Controllers
                             askedQuantity += orders[j].Quantity;
                         }
                     }
-                    if (db.Stocks.Any(s => s.WholesalerId.Equals(new Guid(orders[i].WholeSalerId))
-                    && s.BeerId.Equals(new Guid(orders[i].BeerId)) && askedQuantity > s.Quantity))
+                    Guid wholeId = new Guid(orders[i].WholeSalerId);
+                    Guid beerId = new Guid(orders[i].BeerId);
+                    if (db.Stocks.Any(s => s.WholesalerId.Equals(wholeId)
+                    && s.BeerId.Equals(beerId) && askedQuantity > s.Quantity))
                         return BadRequest(new CommandeException("Le nombre de bières commandées ne doit pas être supérieur au stock du grossiste"));
                 }
 
